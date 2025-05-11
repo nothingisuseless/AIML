@@ -1,17 +1,27 @@
 # 🤖 RAG PDF Chatbot (Streamlit + Ollama)
 
-Chat with multiple PDF documents using a Retrieval-Augmented Generation (RAG) pipeline powered by [Ollama](https://ollama.com/) and [LangChain](https://www.langchain.com/).
-
-> Built with LLMs, FAISS vector search, and sentence-transformer embeddings.
+A local-first chatbot that lets you ask questions about **multiple PDF files** using **Retrieval-Augmented Generation (RAG)**. It uses [LangChain](https://www.langchain.com/), [FAISS](https://github.com/facebookresearch/faiss), and [Ollama](https://ollama.com/) to run LLMs like LLaMA 3 on your own machine — no API keys, no cloud required.
 
 ---
 
-## 🧠 Features
+## 🔍 What It Does
 
-- 💬 Ask questions about multiple PDF documents
-- 🧱 Uses local LLM via Ollama (e.g., LLaMA 3, Mistral, etc.)
-- ⚡️ Fast retrieval with FAISS vector store
-- 📄 Streamlit-based web interface
+This app allows you to interact with your documents using natural language. It:
+- Extracts and splits text from your PDFs
+- Embeds the content using `sentence-transformers`
+- Stores embeddings in a FAISS vector database
+- Retrieves relevant chunks based on your query
+- Uses a local LLM (e.g., `llama3`) to answer your question
+
+---
+
+## 🧰 Tech Stack
+
+- **Streamlit** for UI
+- **LangChain** for chaining LLMs + retrievers
+- **FAISS** for vector similarity search
+- **sentence-transformers** for text embeddings
+- **Ollama** to run local LLMs
 
 ---
 
