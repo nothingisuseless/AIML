@@ -30,7 +30,7 @@ This app allows you to interact with your documents using natural language. It:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/rag-pdf-chatbot.git
+git clone https://github.com/nothingisuseless/rag-pdf-chatbot.git
 cd rag-pdf-chatbot
 ```
 
