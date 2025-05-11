@@ -73,14 +73,13 @@ Then open your browser to: http://localhost:8501
 
 ## 🧩 Folder Structure
 
-
+```
 rag-pdf-chatbot/
-
 ├── app.py              
 ├── requirements.txt    
 ├── README.md           
 └── pdfs/               
-
+```
 
 ## 💡 Example Use Cases
 Quickly summarize academic papers
@@ -92,8 +91,9 @@ Extract insights from manuals, contracts, books, etc.
 ## 🧠 Customization
 To change the model, edit the Ollama line in app.py:
 
-
+```
 llm = Ollama(model="llama3")  # Options: llama3, llama2, mistral, codellama, etc.
+```
 
 ## 📜 License
 This project is licensed under the MIT License — free to use and modify.
