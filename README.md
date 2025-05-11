@@ -75,6 +75,7 @@ Then open your browser to: http://localhost:8501
 
 
 rag-pdf-chatbot/
+
 ├── app.py              
 ├── requirements.txt    
 ├── README.md           
