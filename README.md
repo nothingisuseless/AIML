@@ -79,14 +79,15 @@ streamlit run app.py
 Then open your browser to: http://localhost:8501
 
 ## 🧩 Folder Structure
-graphql
-Copy
-Edit
-rag-pdf-chatbot/
-├── app.py              # Streamlit app code
-├── requirements.txt    # Dependencies
-├── README.md           # This file
-└── pdfs/               # Place your PDF documents here
+
+
+- `rag-pdf-chatbot/`
+  - `app.py` – Streamlit app code  
+  - `requirements.txt` – Dependencies  
+  - `README.md` – This file  
+  - `pdfs/` – Place your PDF documents here
+
+
 
 ## 💡 Example Use Cases
 Quickly summarize academic papers
@@ -116,3 +117,4 @@ Ollama
 sentence-transformers
 
 FAISS
+
