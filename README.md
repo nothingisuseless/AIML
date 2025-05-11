@@ -75,10 +75,10 @@ Then open your browser to: http://localhost:8501
 
 
 rag-pdf-chatbot/
-├── app.py              # Streamlit app code
-├── requirements.txt    # Dependencies
-├── README.md           # This file
-└── pdfs/               # Place your PDF documents here
+├── app.py              
+├── requirements.txt    
+├── README.md           
+└── pdfs/               
 
 
 ## 💡 Example Use Cases
