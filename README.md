@@ -32,3 +32,16 @@ This app allows you to interact with your documents using natural language. It:
 ```bash
 git clone https://github.com/your-username/rag-pdf-chatbot.git
 cd rag-pdf-chatbot
+```
+
+### 2. Install Dependencies
+```
+It's recommended to use a virtual environment:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
