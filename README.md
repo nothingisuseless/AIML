@@ -45,3 +45,74 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+### 3. Add Your PDF Files
+
+Put your .pdf files into the pdfs/ folder:
+```
+Copy
+Edit
+pdfs/
+├── report.pdf
+└── research_paper.pdf
+```
+
+### 4. Start Ollama
+If you haven't installed Ollama yet, download it from: https://ollama.com
+
+Then pull and start the model:
+```
+bash
+Copy
+Edit
+ollama pull llama3
+ollama run llama3
+```
+### 5. Run the Streamlit App
+In a separate terminal window:
+```
+bash
+Copy
+Edit
+streamlit run app.py
+```
+Then open your browser to: http://localhost:8501
+
+## 🧩 Folder Structure
+graphql
+Copy
+Edit
+rag-pdf-chatbot/
+├── app.py              # Streamlit app code
+├── requirements.txt    # Dependencies
+├── README.md           # This file
+└── pdfs/               # Place your PDF documents here
+
+## 💡 Example Use Cases
+Quickly summarize academic papers
+
+Ask questions about long business reports
+
+Extract insights from manuals, contracts, books, etc.
+
+## 🧠 Customization
+To change the model, edit the Ollama line in app.py:
+
+python
+Copy
+Edit
+llm = Ollama(model="mistral")  # Options: llama3, llama2, mistral, codellama, etc.
+
+## 📜 License
+This project is licensed under the MIT License — free to use and modify.
+
+## 🙌 Acknowledgments
+Thanks to:
+
+LangChain
+
+Ollama
+
+sentence-transformers
+
+FAISS
